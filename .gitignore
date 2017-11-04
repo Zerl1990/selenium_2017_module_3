@@ -1,0 +1,8 @@
+target/
+src\test\java\com\qalabs\pageobjects\TestNGExercise1Test.java
+src\test\java\com\qalabs\pageobjects\TestNGExercise3Test.java
+src\test\java\com\qalabs\pageobjects\POExample1Test.java
+src\test\resources\testng_suites\TestNGSutieForTestNGExercise2.xml
+src\test\resources\testng_suites\TestNGSuiteForPOExercise1.xml
+src\main\java\com\qalabs\facebook\FacebokLoginPage.java
+src\main\java\com\qalabs\facebook\FacebookMainPage.java
