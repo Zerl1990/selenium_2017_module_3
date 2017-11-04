@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteForExercise2" verbose="1" parallel="classes">
+    <test name="Basic Regression" >
+        <parameter name="browser" value="chrome"/>
+        <groups>
+            <run>
+                <exclude name="brokenTests"  />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.qalabs.pageobjects.TestNGExercise1Test"></class>
+            <class name="com.qalabs.pageobjects.TestNGExercise3Test"></class>
+        </classes>
+    </test>
+</suite>
